@@ -1,0 +1,55 @@
+:root {
+    --primary-color1: #1d1d1f;
+    --primary-color2: rgba(241, 244, 246, 0.03);
+    --primary-color3: #ffffff;
+    --primary-color4: #8a8a8e;
+    --font: "Inter", sans-serif;
+  }
+  
+  *,
+  *::after,
+  *::before {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: var(--primary-color1);
+    font-family: var(--font);
+    color: var(--primary-color3);
+    font-size: 100%;
+  }
+  
+  h1 {
+    font-size: 4.25rem;
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  
+  h4 {
+    font-size: 1.125rem;
+    font-weight: 700;
+  }
+  
+  h5 {
+    font-size: 0.875rem;
+    font-weight: 700;
+  }
+  
+  h6 {
+    font-size: 0.75rem;
+    font-weight: 700;
+  }
+  
